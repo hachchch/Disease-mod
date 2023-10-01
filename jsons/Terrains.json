@@ -2,7 +2,7 @@
 	// Base terrains
 	{
 		"name": "Ocean",
-		"type": "Water","Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>
+		"type": "Water",
 		"food": 1,
 		"gold": 1,
 		"uniques": ["Grants [Nausea] to adjacent [All] units for the rest of the game <with [3]% chance>"],
