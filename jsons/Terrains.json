@@ -2,7 +2,7 @@
 	// Base terrains
 	{
 		"name": "Ocean",
-		"type": "Water",
+		"type": "Water","Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>
 		"food": 1,
 		"gold": 1,
 		"uniques": ["Grants [Nausea] to adjacent [All] units for the rest of the game <with [3]% chance>"],
@@ -25,7 +25,7 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+        "uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>","Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
@@ -51,7 +51,8 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
-		"uniques": ["Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+		"uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>",
+		"Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
             "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -78,7 +79,8 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [30, 113, 69],
-		"uniques": ["Grants [Flu] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance>","Grants [Osteoporosis] to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+		"uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>",
+			"Grants [Flu] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance>","Grants [Osteoporosis] to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
             "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
@@ -95,7 +97,8 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 172, 0],
-		"uniques": ["Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+		"uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>",
+			"Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
             "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
             "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
@@ -111,7 +114,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 238, 255], //Darker229, 229, 255
-		"uniques": [
+		"uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>",
 	    "Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>",
             "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
             "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
