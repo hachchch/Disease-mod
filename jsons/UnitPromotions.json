@@ -68,7 +68,7 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
                 "row": 674,
 		"prerequisites": ["Covid"],
-                "column": 0
+                "column": 1
 	},
 	{
 		"name": "Hypertension",
