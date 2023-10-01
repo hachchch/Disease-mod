@@ -17,7 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable",
-		"Grants [Plague] to adjacent units for the rest of the game <with [2]% chance> <before the [Industrial era]>",
+		"Grants [Plague] to adjacent units for the rest of the game <with [100]% chance> <before the [Industrial era]>",
 		"Grants [Covid] to adjacent units for the rest of the game <with [1]% chance> <after the [Informaton era]>",
 		"Grants [Tetanus] to adjacent units for the rest of the game <with [2]% chance> <before the [Modern era]>",
 		"Grants [Obesity] to adjacent units for the rest of the game <with [4]% chance> <after the [Atomic era]>",
