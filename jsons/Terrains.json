@@ -5,6 +5,7 @@
 		"type": "Water",
 		"food": 1,
 		"gold": 1,
+		"uniques": ["Grants [Nausea] to adjacent units for the rest of the game"],
 		"movementCost": 1,
 		"RGB": [43, 87, 151]
 	},
