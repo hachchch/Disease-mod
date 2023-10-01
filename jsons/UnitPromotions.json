@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Covid",
-		"uniques": ["Grants [Covid] to adjacent [All] units for the rest of the game <with [85]% chance>","Unit will heal every turn, even if it performs an action","[-38] HP when healing"],
+		"uniques": ["Grants [Covid] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [85]% chance>","Unit will heal every turn, even if it performs an action","[-38] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
                 "row": 674,
                 "column": 0
@@ -79,7 +79,7 @@
 	},
 	{
 		"name": "Plague",
-		"uniques": ["Grants [Plague] to adjacent [All] units for the rest of the game <with [65]% chance>","[-80]% Strength"],
+		"uniques": ["Grants [Plague] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [65]% chance>","[-80]% Strength"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
                 "row": 676,
                 "column": 0
