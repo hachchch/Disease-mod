@@ -17,7 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable",
-		"Grants [Plague] to adjacent units for the rest of the game <with [2]% chance> <before the [Atomic era]>",
+		"Grants [Plague] to adjacent units for the rest of the game <with [2]% chance> <before the [Industrial era]>",
 		"Grants [Covid] to adjacent units for the rest of the game <with [1]% chance> <after the [Informaton era]>",
 		"Grants [Tetanus] to adjacent units for the rest of the game <with [2]% chance> <before the [Modern era]>",
 		"Grants [Obesity] to adjacent units for the rest of the game <with [4]% chance> <after the [Atomic era]>",
@@ -25,7 +25,7 @@
 		"Grants [Syphilis] to adjacent units for the rest of the game <with [3]% chance>",
 		"Grants [Flu] to adjacent units for the rest of the game <with [1]% chance>",
 		"Grants [Autism] to adjacent units for the rest of the game <with [3]% chance>",
-		
+		"Grants [Hypertension] to adjacent units for the rest of the game <with [5]% chance> <after the [Industrial era]>"
 		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
