@@ -22,7 +22,8 @@
 		"Grants [Tetanus] to adjacent units for the rest of the game <with [2]% chance> <before the [Modern era]>",
 		"Grants [Obesity] to adjacent units for the rest of the game <with [4]% chance> <after the [Atomic era]>",
 		"Grants [HIV] to adjacent units for the rest of the game <with [3]% chance>",
-		"Grants [HIV] to adjacent units for the rest of the game <with [3]% chance>",
+		"Grants [Syphilis] to adjacent units for the rest of the game <with [3]% chance>",
+		"Grants [Syphilis] to adjacent units for the rest of the game <with [3]% chance>",
 		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
