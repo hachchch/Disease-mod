@@ -5,7 +5,7 @@
 		"type": "Water",
 		"food": 1,
 		"gold": 1,
-		"uniques": ["Grants [Nausea] to adjacent [All] units for the rest of the game <with [3]% chance>"],
+		"uniques": ["Grants [Nausea] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [9]% chance>"],
 		"movementCost": 1,
 		"RGB": [43, 87, 151]
 	},
@@ -15,7 +15,7 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
-		"uniques": ["Grants [Nausea] to adjacent [All] units for the rest of the game <with [2]% chance>","[+2] to Fertility for Map Generation",
+		"uniques": ["Grants [Nausea] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [6]% chance>","[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
