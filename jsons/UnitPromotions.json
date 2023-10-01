@@ -1,0 +1,12 @@
+[
+        {
+                "name": "Tetanus",
+                "uniques": ["Unit will heal every turn, even if it performs an action","[-30] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+                "row": 100,
+                "column": 0
+        },
+        {
+                
+        }
+]
