@@ -25,7 +25,9 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [100]% chance> <in [Farm] tiles>","Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>","Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+        "uniques": ["Grants [Tetanus] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [3]% chance> <in [Farm] tiles>",
+		"Grants [Osteoporosis] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [2]% chance>",
+		"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
@@ -129,27 +131,7 @@
 	},
 
 	// Terrain features
-	{
-		"name": "Hill",
-		"type": "TerrainFeature",
-		"production": 2,
-		"movementCost": 2,
-		"overrideStats": true,
-		"defenceBonus": 0.25,
-		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain",
-					"[+5] Strength for cities built on this terrain",
-					"Has an elevation of [1] for visibility calculations",
-					"Occurs in groups around high elevations",
-					"[+1] to Fertility for Map Generation",
-					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
-					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Sheep]",
-					"Considered [Desirable] when determining start locations",
-					"Considered [Production] when determining start locations",
-					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
-	},
+	
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
