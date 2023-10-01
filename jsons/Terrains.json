@@ -158,6 +158,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
+			"Grants [Malaria] to adjacent units for the rest of the game <with [1]% chance>",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes",
@@ -181,6 +182,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
+		"Grants [Malaria] to adjacent units for the rest of the game <with [4]% chance>",
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -201,7 +203,7 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature",
+		"uniques": ["Rare feature","Grants [Malaria] to adjacent units for the rest of the game <with [10]% chance>",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
@@ -217,49 +219,4 @@
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
-	{
-		"name": "Oasis",
-		"type": "TerrainFeature",
-		"food": 3,
-		"gold": 1,
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Fresh water", "Rare feature",
-					"Only [All Road] improvements may be built on this tile",
-					"Always Fertility [4] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
-	},
-	{
-		"name": "Flood plains",
-		"type": "TerrainFeature",
-		"food": 2,
-		"movementCost": 1,
-		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
-	},
-	{
-		"name": "Ice",
-		"type": "TerrainFeature",
-		"impassable": true,
-		"overrideStats": true,
-		"occursOn": ["Ocean", "Coast"],
-		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
-					"[-1] to Fertility for Map Generation",
-					"Considered [Undesirable] when determining start locations"]
-	},
-	{
-		"name": "Atoll",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"food": 1,
-		"production": 1,
-		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
-	}
 ]
