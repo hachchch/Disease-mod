@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Covid",
-		"uniques": ["Heal this unit by [-12] HP <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
+		"uniques": ["Covid Infected <hidden from users>","Heal this unit by [-12] HP <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
 	},
 	{
 		"name": "Cure Covid",
@@ -45,7 +45,7 @@
 	},
 	{
 		"name": "Plague",
-		"uniques": ["[-80]% Strength <for units without [Cure Plague]>"],
+		"uniques": ["Plague Infected <hidden from users>","[-80]% Strength <for units without [Cure Plague]>"],
 	},
 	{
 		"name": "Cure Plague",
