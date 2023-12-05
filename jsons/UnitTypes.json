@@ -1,6 +1,24 @@
 [
     {
         "name": "Civilian",
+        "uniques": ["This Unit gains the [Tetanus] promotion <upon ending a turn in a [Farm] tile> <with [4]% chance>",
+        "This Unit gains the [Malaria] promotion <upon ending a turn in a [Jungle] tile> <with [4]% chance>",
+        "This Unit gains the [Malaria] promotion <upon ending a turn in a [Marsh] tile> <with [5]% chance>",
+        "This Unit gains the [Malaria] promotion <upon ending a turn in a [Forest] tile> <with [1]% chance>",
+        "This Unit gains the [HIV] promotion <upon ending a turn in a [All] tile> <when adjacent to a [All] unit> <with [5]% chance>",
+        "This Unit gains the [Syphilis] promotion <upon ending a turn in a [City center] tile> <with [5]% chance>",
+        "This Unit gains the [Osteoporosis] promotion <upon ending a turn in a [All] tile> <with [2]% chance>",
+        "This Unit gains the [Flu] promotion <upon ending a turn in a [All] tile> <with [1]% chance>",
+        "This Unit gains the [Autism] promotion <upon ending a turn in a [All] tile> <when below [15] HP> <with [14]% chance>",
+        "This Unit gains the [Obesity] promotion <upon ending a turn in a [City center] tile> <with [1]% chance>",
+        "This Unit gains the [Obesity] promotion <upon ending a turn in a [City center] tile> <with [17]% chance> <starting from the [Information era]>",
+        "This Unit gains the [Covid] promotion <upon ending a turn in a [City center] tile> <with [5]% chance> <starting from the [Information era]>",
+        "This Unit gains the [Covid] promotion <upon ending a turn in a [All] tile> <when adjacent to a [Covid Infected] unit> <with [50]% chance>",
+        "This Unit gains the [Hypertension] promotion <upon ending a turn in a [City center] tile> <with [3]% chance>",
+        "This Unit gains the [Plague] promotion <upon ending a turn in a [City center] tile> <with [1]% chance>",
+        "This Unit gains the [Plague] promotion <upon ending a turn in a [All] tile> <when adjacent to a [Plague Infected] unit> <with [50]% chance>",
+        "This Unit gains the [Cerebral Infarction] promotion <upon ending a turn in a [All] tile> <with [2]% chance>",
+        "This Unit gains the [Nausea] promotion <upon ending a turn in a [Water] tile> <with [8]% chance>"]
         "movementType": "Land"
     },
     {
