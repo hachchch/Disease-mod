@@ -1,109 +1,62 @@
 [
         {
                 "name": "Tetanus",
-                "uniques": ["Unit will heal every turn, even if it performs an action","[-30] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 666,
-                "column": 0
+                "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile>"],
         },
         {
                 "name": "Malaria",
 		"uniques": ["Cannot attack","[-20]% Strength <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 667,
-                "column": 0
         },
 	{
 		"name": "HIV",
 		"uniques": ["Cannot enter ocean tiles","All adjacent units heal [-5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 668,
-                "column": 0
 	},
 	{
 		"name": "Syphilis",
 		"uniques": ["Cannot enter ocean tiles","[-33]% Strength <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 669,
-                "column": 0
 	},
 	{
 		"name": "Osteoporosis",
 		"uniques": ["Self-destructs when attacking <with [33]% chance>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 670,
-                "column": 0
 	},
 	{
 		"name": "Flu",
 		"uniques": ["[-1] Sight","[-1] Movement","[-10]% Strength"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 671,
-                "column": 0
 	},
 	{
 		"name": "Autism",
 		"uniques": ["Unable to capture cities"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 672,
-                "column": 0
 	},
 	{
 		"name": "Obesity",
 		"uniques": ["[-5] HP when healing","[-3]% Strength","[-1] Movement"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 673,
-                "column": 0
 	},
 	{
 		"name": "Covid",
-		"uniques": ["Grants [Covid] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [85]% chance>","Unit will heal every turn, even if it performs an action","[-38] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 674,
-                "column": 0
+		"uniques": ["Heal this unit by [-12] HP <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
 	},
 	{
 		"name": "Cure Covid",
-		"uniques": ["[+38] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 674,
 		"prerequisites": ["Covid"],
-                "column": 1
 	},
 	{
 		"name": "Hypertension",
-		"uniques": ["[-5]% Strength","This Unit gains the [Cerebral Infarction] promotion <with [12]% chance>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 675,
-                "column": 0
+		"uniques": ["[-5]% Strength","This Unit gains the [Cerebral Infarction] promotion <with [12]% chance> <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Plague",
-		"uniques": ["Grants [Plague] ([Disease mod by hachchch]) to adjacent [All] units for the rest of the game <with [65]% chance>","[-80]% Strength"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 676,
-                "column": 0
+		"uniques": ["[-80]% Strength <for units without [Cure Plague]>"],
 	},
 	{
 		"name": "Cure Plague",
 		"prerequisites": ["Plague"],
-		"uniques": ["[+80]% Strength","This Unit gains [10] XP"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 676,
-                "column": 1
 	},
 	{
 		"name": "Cerebral Infarction",
-		"uniques": ["This Unit gains [-100] XP","Heal this unit by [-40] HP"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-                "row": 677,
-                "column": 0
+		"uniques": ["This Unit gains [-100] XP","Heal this unit by [-40] HP","Doing so will consume this opportunity to choose a Promotion"],
 	},
 	{
 		"name": "Nausea",
-		"uniques": ["This Unit gains [-20] XP"],
-		"unitTypes": ["Melee Water","Ranged Water","Submarine"],
-                "row": 678,
-                "column": 0
+		"uniques": ["This Unit gains [-1] XP <upon ending a turn in a [All] tile>"],
 	},
 ]
