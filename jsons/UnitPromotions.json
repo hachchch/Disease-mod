@@ -10,7 +10,7 @@
         },
         {
                 "name": "Malaria",
-		"uniques": ["Cannot attack","[-20]% Strength <when defending>"],
+		"uniques": ["Cannot attack <for [3] turns>","[-20]% Strength <when defending>"],
         },
 	{
 		"name": "HIV",
