@@ -34,10 +34,15 @@
 	{
 		"name": "Covid",
 		"uniques": ["Covid Infected <hidden from users>","Heal this unit by [-12] HP <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
+		"column": 1,
+		"row": 201,
 	},
 	{
 		"name": "Cure Covid",
 		"prerequisites": ["Covid"],
+		"uniques": ["Only available <for units with [Covid]>"]
+		"column": 2,
+		"row": 201,
 	},
 	{
 		"name": "Hypertension",
@@ -46,10 +51,15 @@
 	{
 		"name": "Plague",
 		"uniques": ["Plague Infected <hidden from users>","[-80]% Strength <for units without [Cure Plague]>"],
+		"column": 1,
+		"row": 200,
 	},
 	{
 		"name": "Cure Plague",
+		"uniques": ["Only available <for units with [Plague]>"]
 		"prerequisites": ["Plague"],
+		"column": 2,
+		"row": 200,
 	},
 	{
 		"name": "Cerebral Infarction",
