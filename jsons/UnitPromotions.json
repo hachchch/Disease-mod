@@ -1,4 +1,9 @@
 [
+	{
+		"name": "Immunity",
+		"uniques": ["This unit's chance of contracting a all type of disease becomes 1%."],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+	},
         {
                 "name": "Tetanus",
                 "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile>"],
@@ -40,7 +45,8 @@
 	{
 		"name": "Cure Covid",
 		"prerequisites": ["Covid"],
-		"uniques": ["Only available <for units with [Covid]>"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"uniques": ["Cure","Only available <for units with [Covid]>"],
 		"column": 2,
 		"row": 201,
 	},
@@ -56,7 +62,8 @@
 	},
 	{
 		"name": "Cure Plague",
-		"uniques": ["Only available <for units with [Plague]>"]
+		"uniques": ["Cure","Only available <for units with [Plague]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
 		"prerequisites": ["Plague"],
 		"column": 2,
 		"row": 200,
