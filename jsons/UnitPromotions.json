@@ -46,7 +46,7 @@
 		"name": "Cure Covid",
 		"prerequisites": ["Covid"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-		"uniques": ["Cure","Only available <for units with [Covid]>"],
+		"uniques": ["Only available <for units with [Covid]>"],
 		"column": 2,
 		"row": 201,
 	},
@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Cure Plague",
-		"uniques": ["Cure","Only available <for units with [Plague]>"],
+		"uniques": ["Only available <for units with [Plague]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
 		"prerequisites": ["Plague"],
 		"column": 2,
