@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "Osteoporosis",
-		"uniques": ["Self-destructs when attacking <with [33]% chance>"],
+		"uniques": ["Self-destructs when attacking <with [12]% chance>"],
 	},
 	{
 		"name": "Flu",
