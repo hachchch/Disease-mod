@@ -1,32 +1,36 @@
 [
 	{
+		"name": "Modern Medicine",
+		"uniques": ["Most diseases will no longer develop."]
+	},
+	{
 		"name": "Immunity",
 		"uniques": ["This unit's chance of contracting a all type of disease becomes 1%."],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
 	},
         {
                 "name": "Tetanus",
-                "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile>"],
+                "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile> <for units without [Modern Medicine]>"],
         },
         {
                 "name": "Malaria",
-		"uniques": ["Cannot attack <for [3] turns>","[-20]% Strength <when defending>"],
+		"uniques": ["Cannot attack <for [3] turns> <for units without [Modern Medicine]>","[-20]% Strength <when defending> <for units without [Modern Medicine]>"],
         },
 	{
 		"name": "HIV",
-		"uniques": ["Cannot enter ocean tiles","All adjacent units heal [-5] HP when healing"],
+		"uniques": ["Cannot enter ocean tiles <for units without [Modern Medicine]>","All adjacent units heal [-5] HP when healing <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Syphilis",
-		"uniques": ["Cannot enter ocean tiles","[-33]% Strength <when defending>"],
+		"uniques": ["Cannot enter ocean tiles <for units without [Modern Medicine]>","[-33]% Strength <when defending> <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Osteoporosis",
-		"uniques": ["Self-destructs when attacking <with [12]% chance>"],
+		"uniques": ["Self-destructs when attacking <with [12]% chance> <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Flu",
-		"uniques": ["[-1] Sight","[-1] Movement","[-10]% Strength"],
+		"uniques": ["[-1] Sight <for units without [Modern Medicine]>","[-1] Movement <for units without [Modern Medicine]>","[-10]% Strength <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Autism",
@@ -34,7 +38,7 @@
 	},
 	{
 		"name": "Obesity",
-		"uniques": ["[-5] HP when healing","[-3]% Strength","[-1] Movement"],
+		"uniques": ["[-5] HP when healing <for units without [Modern Medicine]>","[-3]% Strength <for units without [Modern Medicine]>","[-1] Movement <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Covid",
@@ -52,11 +56,11 @@
 	},
 	{
 		"name": "Hypertension",
-		"uniques": ["[-5]% Strength","This Unit gains the [Cerebral Infarction] promotion <with [12]% chance> <upon ending a turn in a [All] tile>"],
+		"uniques": ["[-5]% Strength <for units without [Modern Medicine]>","This Unit gains the [Cerebral Infarction] promotion <with [6]% chance> <upon ending a turn in a [All] tile> <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Plague",
-		"uniques": ["Plague Infected <hidden from users>","[-80]% Strength <for units without [Cure Plague]>"],
+		"uniques": ["Plague Infected <hidden from users> <for units without [Modern Medicine]>","[-80]% Strength <for units without [Cure Plague]> <for units without [Modern Medicine]>"],
 		"column": 1,
 		"row": 200,
 	},
@@ -70,10 +74,10 @@
 	},
 	{
 		"name": "Cerebral Infarction",
-		"uniques": ["This Unit gains [-100] XP","Heal this unit by [-40] HP","Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["This Unit gains [-100] XP <for units without [Modern Medicine]>","Heal this unit by [-40] HP <for units without [Modern Medicine]>","Doing so will consume this opportunity to choose a Promotion <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Nausea",
-		"uniques": ["This Unit gains [-1] XP <upon ending a turn in a [All] tile>"],
+		"uniques": ["This Unit gains [-1] XP <upon ending a turn in a [All] tile> <for units without [Modern Medicine]>"],
 	},
 ]
