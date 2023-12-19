@@ -10,11 +10,11 @@
 	},
         {
                 "name": "Tetanus",
-                "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile> <for units without [Modern Medicine]>"],
+                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [All] tile> <for units without [Modern Medicine]>"],
         },
         {
                 "name": "Malaria",
-		"uniques": ["Cannot attack <for [3] turns> <for units without [Modern Medicine]>","[-20]% Strength <when defending> <for units without [Modern Medicine]>"],
+		"uniques": ["[-1] Sight <for units without [Modern Medicine]>","[-20]% Strength <when defending> <for units without [Modern Medicine]>"],
         },
 	{
 		"name": "HIV",
@@ -38,11 +38,11 @@
 	},
 	{
 		"name": "Obesity",
-		"uniques": ["[-5] HP when healing <for units without [Modern Medicine]>","[-3]% Strength <for units without [Modern Medicine]>","[-1] Movement <for units without [Modern Medicine]>"],
+		"uniques": ["This Unit takes [5] damage <for units without [Modern Medicine]>","[-3]% Strength <for units without [Modern Medicine]>","[-1] Movement <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Covid",
-		"uniques": ["Covid Infected <hidden from users>","Heal this unit by [-12] HP <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
+		"uniques": ["Covid Infected <hidden from users>","This Unit takes [12] damage <upon ending a turn in a [All] tile> <for units without [Cure Covid]>"],
 		"column": 1,
 		"row": 201,
 	},
@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Cerebral Infarction",
-		"uniques": ["This Unit gains [-100] XP <for units without [Modern Medicine]>","Heal this unit by [-40] HP <for units without [Modern Medicine]>","Doing so will consume this opportunity to choose a Promotion <for units without [Modern Medicine]>"],
+		"uniques": ["This Unit gains [-100] XP <for units without [Modern Medicine]>","This Unit takes [40] damage <for units without [Modern Medicine]>","Doing so will consume this opportunity to choose a Promotion <for units without [Modern Medicine]>"],
 	},
 	{
 		"name": "Nausea",
